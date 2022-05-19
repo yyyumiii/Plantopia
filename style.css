@@ -1,0 +1,101 @@
+.navbar {
+  width: 100%;
+  background-color: #ffe4c9;
+  overflow: auto;
+}
+
+
+/* Navbar links */
+.navbar a {
+  font-family: Palatino, URW Palladio L, serif;
+  float: center;
+  text-align: center;
+  padding: 30px;
+  color: rgb(49,103,61);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #ffe4c9;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #ffe4c9;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+body {
+  font-family: Palatino, URW Palladio L, serif;
+  background: #ffe4c9;
+  color: rgb(49,103,61);
+  text-align: center;
+}
+
+.navigation {
+  font-family: 'Roboto Mono', monospace;
+  background: #ffe4c9;
+  color: rgb(49,103,61);
+  text-align: center;
+  text-size: 20px
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 200%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #F3BCAA;
+  color: rgb(49,103,61);
+  font-size: 16px;
+  font-family: Palatino, URW Palladio L, serif;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  
+}
+
+.container .btn:hover {
+  background-color: #d6a392;
+}
+
+header
+{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 25px;  
+}
+
+#info
+{
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+a{
+  color: #074E8C;
+}
