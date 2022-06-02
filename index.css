@@ -1,7 +1,101 @@
+header {
+  display: flex;
+  align-items: center;
+  
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content: space-between;
+}
+
+.Home {
+  margin-left: 50px;
+}
+
+.Cart {
+  margin-right: 50px;
+}
+
+
 body {
   font-family: Palatino, URW Palladio L, serif;
   background: #ffe4c9;
   color: rgb(49,103,61);
   text-align: center;
-  font-size: 20px
 }
+
+.navigation {
+  font-family: 'Roboto Mono', monospace;
+  background: #ffe4c9;
+  color: rgb(49,103,61);
+  text-align: center;
+  text-size: 70%;
+}
+
+hr {
+  height:2px;
+  background-color:rgb(49,103,61);
+  width: 80%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+
+.About-Us {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.left-column {
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 20px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+
+
+.right-column {
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 40px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.right-column img {
+  width: 80%;
+  margin-left: 60px;
+
+}
+
+.What-Makes-Us-Image {
+  Width: 600px;
+  margin-right: 70px;
+  align: left;
+}
+
+
+.Guidance {
+  
+  margin-top: 60px;
+  
+  margin-right: 30px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.Guidance-Image {
+  margin-right: 70px;
+  align: left
+}
+
