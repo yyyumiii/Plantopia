@@ -10,6 +10,10 @@ header {
   margin-left: 50px;
 }
 
+.center {
+  font-size:90px;
+}
+
 .Cart {
   margin-right: 50px;
 }
@@ -29,7 +33,7 @@ body {
   background: #ffe4c9;
   color: rgb(49,103,61);
   text-align: center;
-  font-size: 90px;
+  font-size: 40px;
 }
 
 hr {
