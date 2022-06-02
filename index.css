@@ -29,7 +29,7 @@ body {
   background: #ffe4c9;
   color: rgb(49,103,61);
   text-align: center;
-  text-size: 90px;
+  font-size: 90px;
 }
 
 hr {
@@ -41,7 +41,7 @@ hr {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0px;
   display: flex;
 }
 
