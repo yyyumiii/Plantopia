@@ -54,6 +54,7 @@ hr {
   margin-bottom: 30px;
   text-align: center;
   line-height: 1.6;
+  font-size: 1.2em;
 }
 
 .left-column {
@@ -62,6 +63,7 @@ hr {
   margin-left: 20px;
   text-align: left;
   line-height: 1.6;
+  font-size: 1.2em;
 }
 
 
@@ -72,6 +74,7 @@ hr {
   margin-left: 40px;
   text-align: left;
   line-height: 1.6;
+  font-size: 1.2em;
 }
 
 .right-column img {
@@ -94,6 +97,7 @@ hr {
   margin-right: 30px;
   text-align: left;
   line-height: 1.6;
+  font-size: 1.2em;
 }
 
 .Guidance-Image {
