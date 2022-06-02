@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  align-items: center;
+  
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content: space-between;
+}
+
+.Home {
+  margin-left: 50px;
+}
+
+.Cart {
+  margin-right: 50px;
+}
+
+body{
+  background: #ffe4c9;
+  color: rgb(49,103,61);
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.plants {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffe4c9;
+  font-size: 45px;
+  letter-spacing: 3px;
+  
+}
+
+/* Create three equal columns that floats next to each other */
+.column1{
+  float: left;
+  width: 25%;
+  margin-left: 170px;
+  margin-top: 70px;
+  line-height: 0.5;
+}
+/*.cart-btn{
+  margin-left: auto;
+  color: #ffe4c9;
+  background-color:#31673d;
+  text-decoration: none;
+  border: 2px solid;
+  border-color:#31673d;
+  padding: 8px 24px;
+  border-radius: 20px;
+  transition: .4s linear;
+}*/
+
+.column2{
+  float: left;
+  width: 25%;
+  margin-left:15px;
+  margin-top: 70px;
+  line-height: 0.5;
+}
+
+.column3{
+  float: left;
+  width: 25%;
+  margin-left:15px;
+  margin-top: 70px;
+  line-height: 0.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
