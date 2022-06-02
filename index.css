@@ -22,38 +22,7 @@ body {
   text-align: center;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-}
 
-/* Make the image responsive */
-.container img {
-  width: 200%;
-  height: auto;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #F3BCAA;
-  color: rgb(49,103,61);
-  font-size: 30px;
-  font-family: Palatino, URW Palladio L, serif;
-  padding: 10px 40px;
-  border: none;
-  cursor: pointer;
-  border-radius: 2px;
-  
-}
-
-.container .btn:hover {
-  background-color: #d6a392;
-}
 
 .navigation {
   font-family: 'Roboto Mono', monospace;
