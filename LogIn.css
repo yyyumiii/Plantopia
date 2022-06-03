@@ -1,3 +1,26 @@
+
+.Home {
+  margin-left: 50px;
+  font-size: 1.2em;
+}
+
+.Products {
+ font-size: 1.2em;
+}
+
+.center {
+  font-size:80px;
+}
+
+.Account {
+  font-size: 1.2em;
+}
+
+.Cart {
+  margin-right: 50px;
+  font-size: 1.2em;
+}
+
 .login-page {
   width: 360px;
   padding: 8% 0 0;
