@@ -8,11 +8,11 @@ header {
 
 .Home {
   margin-left: 50px;
-  font-size:50px;
+  font-size: 1.2em;
 }
 
 .Products {
- font-size:50px;
+ font-size: 1.2em;
 }
 
 .center {
@@ -20,12 +20,12 @@ header {
 }
 
 .Account {
-  font-size:50px;
+  font-size: 1.2em;
 }
 
 .Cart {
   margin-right: 50px;
-  font-size:50px;
+  font-size: 1.2em;
 }
 
 
