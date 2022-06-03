@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+  background: #ffe4c9;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CartContainer{
+	width: 70%;
+	height: 90%;
+	background-color: #ffff;
+  border-radius: 20px;
+}
+
+.Header{
+	margin: auto;
+	width: 90%;
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Heading{
+	font-size: 30px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 700;
+	color: #31673d;
+}
+
+.Action{
+	font-size: 16px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #11111;
+	cursor: pointer;
+	border-bottom: 1px solid #31673d;
+}
+
+.Cart-Items{
+	margin: auto;
+	width: 90%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.image-box{
+	width: 15%;
+	text-align: center;
+}
+.about{
+
+  height: 100%;
+	width: 10%;
+}
+.title{
+	padding-top: 5px;
+  padding-left: px;
+	line-height: 17px;
+	font-size: 15px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 550;
+	color: #00000;
+}
+.subtitle{
+	line-height: 10px;
+	font-size: 15px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 550;
+	color: #f1f1f;
+}
+
+.counter{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #0000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 900;
+	color: #11111;
+	cursor: pointer;
+}
+.count{
+	font-size: 20px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #202020;
+}
+
+.prices{
+	height: 100%;
+	text-align: right;
+}
+.amount{
+	padding-top: 20px;
+	font-size: 26px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 800;
+	color: #202020;
+}
+.save{
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #31673d;
+	cursor: pointer;
+}
+.remove{
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #816A54;
+	cursor: pointer;
+}
+
+.pad{
+	margin-top: 5px;
+}
+
+hr{
+	width: 66%;
+	float: right;
+	margin-right: 5%;
+}
+.checkout{
+	float: right;
+	margin-right: 5%;
+	width: 28%;
+}
+.total{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.Subtotal{
+	font-size: 22px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 550;
+	color: #202020;
+}
+.items{
+	font-size: 14px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 500;
+	color: #909090;
+	line-height: 10px;
+}
+.total-amount{
+	font-size: 28px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #202020;
+}
+.button{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	background: #3e8e41 ;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Palatino, URW Palladio L, serif';
+	font-weight: 600;
+	color: #202020;
+}
+.button:hover {background-color: #31673D}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #000;
+  transform: translateY(4px);
+}
