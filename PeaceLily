@@ -1,0 +1,31 @@
+<main class="container">
+ 
+  <!-- Left Column / Headphones Image -->
+  <div class="left-column">
+    <img data-image="black" src="https://bloomscape.com/wp-content/uploads/2020/08/bloomscape_parlor-palmloomscape_slate-e1625249746437.jpg?ver=279264" alt="">
+    <img data-image="blue" src="https://bloomscape.com/wp-content/uploads/2020/08/bloomscape_parlor-palmloomscape_slate-e1625249746437.jpg?ver=279264" alt="">
+    <img data-image="red" class="active" src="https://bloomscape.com/wp-content/uploads/2022/05/bloomscape-peace-lily_large_slate-scaled.jpg?ver=790855" alt="">
+  </div>
+ 
+ 
+  <!-- Right Column -->
+  <div class="right-column">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>Indoor Plant</span>
+      <h1>Peace Lily</h1>
+      <h4>$140</h4>
+      <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+    </div>
+ 
+    <!-- Product Configuration -->
+    <div class="product-configuration">
+ 
+ 
+      </d>
+
+      <a href="#" class="cart-btn">ADD TO CART</a>
+    </div>
+  </div>
+</main>
